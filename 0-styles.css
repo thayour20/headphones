@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    Padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+/*Header styles*/
+.page-header {
+    
+   height: 800px;
+    margin: 0px;
+    background-image: url("./images/headphones_hero_1.jpg");
+    background: cover;
+    margin: 0;
+    padding-top: 0;
+    
+}
+
+.nav-links {
+    color:aliceblue;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+.nav-links:hover {
+  color: #FF6565;  
+}
+.header-header {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    align-items: center;
+}
+
+.nav-items {
+    list-style: none;
+    padding: 13px;
+}
+.nav {
+    display: flex;
+}
+    
+/*section 1*/
+.main-section h1, p {
+    color: aliceblue;
+    
+}
+.section-1 {
+   
+   
+    position: relative;
+   /* top: 80%;*/
+    /*transform: translateY(-50%);*/
+    
+   /* text-align: center;*/
+    
+}
+
+.main-section {
+    width: 637px;
+    height: 313px;
+   /* display: flex;
+    transform: translateX(50%);
+   /* transform: translateY(80%);*/
+    /*flex-direction: column;
+    justify-content: center;
+    padding-top: 30px;  
+    border: 3px solid red;*/
+    /*align-items: center;
+    align-content: start;*/
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+
+}
+button {
+    margin-bottom: 45px;
+    margin-top: 40px;
+    width: 162px;
+    height: 44px;
+   
+    text-transform:uppercase;
+    background-color: red;
+    color: white;
+    font-weight: 500;
+    border-radius: 20px;
+    border: 3px solid red;
+    cursor: pointer;
+
+}
+button:hover,
+button:active {
+    opacity: 0.9;
+}
+
+
+@media  screen and (max-width: 480px) {
+    .header-header {
+        flex-wrap: wrap;
+    }
+    .main-section {
+        flex-wrap: wrap;
+    }
+}

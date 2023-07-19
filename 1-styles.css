@@ -77,6 +77,9 @@
     text-align: center;
 
 }
+.main-section p {
+    color: #fff;
+}
 button {
     margin-bottom: 45px;
     margin-top: 40px;
@@ -105,4 +108,35 @@ button:active {
     .main-section {
         flex-wrap: wrap;
     }
+}
+
+/*section 2*/
+
+.sec2-a {
+   /* border: 3px solid black;*/
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.sec2-a h1, p {
+    color: black;
+    padding: 30px
+}
+.what-we-do {
+  
+}
+.sec2-b {
+   /* border: 1px solid red;*/
+    height: 40vh;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+    transform: translate(5%, 0);
 }
